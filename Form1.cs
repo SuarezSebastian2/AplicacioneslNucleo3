@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace AplicacioneslNucleo3
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialSkin.Controls.MaterialForm
     {
         public Form1()
         {
@@ -31,6 +31,11 @@ namespace AplicacioneslNucleo3
             num1.Text = "";
             num2.Text = "";
             result.Text = "";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

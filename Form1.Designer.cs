@@ -45,7 +45,7 @@
             // Dato1
             // 
             this.Dato1.AutoSize = true;
-            this.Dato1.Location = new System.Drawing.Point(249, 46);
+            this.Dato1.Location = new System.Drawing.Point(249, 81);
             this.Dato1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Dato1.Name = "Dato1";
             this.Dato1.Size = new System.Drawing.Size(45, 17);
@@ -55,7 +55,7 @@
             // Dato2
             // 
             this.Dato2.AutoSize = true;
-            this.Dato2.Location = new System.Drawing.Point(249, 124);
+            this.Dato2.Location = new System.Drawing.Point(249, 154);
             this.Dato2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Dato2.Name = "Dato2";
             this.Dato2.Size = new System.Drawing.Size(45, 17);
@@ -65,7 +65,7 @@
             // resultado
             // 
             this.resultado.AutoSize = true;
-            this.resultado.Location = new System.Drawing.Point(237, 272);
+            this.resultado.Location = new System.Drawing.Point(238, 300);
             this.resultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.resultado.Name = "resultado";
             this.resultado.Size = new System.Drawing.Size(69, 17);
@@ -75,24 +75,24 @@
             // 
             // num1
             // 
-            this.num1.Location = new System.Drawing.Point(209, 67);
-            this.num1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num1.Location = new System.Drawing.Point(209, 102);
+            this.num1.Margin = new System.Windows.Forms.Padding(4);
             this.num1.Name = "num1";
             this.num1.Size = new System.Drawing.Size(132, 23);
             this.num1.TabIndex = 3;
             // 
             // num2
             // 
-            this.num2.Location = new System.Drawing.Point(209, 145);
-            this.num2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.num2.Location = new System.Drawing.Point(209, 175);
+            this.num2.Margin = new System.Windows.Forms.Padding(4);
             this.num2.Name = "num2";
             this.num2.Size = new System.Drawing.Size(132, 23);
             this.num2.TabIndex = 4;
             // 
             // result
             // 
-            this.result.Location = new System.Drawing.Point(209, 293);
-            this.result.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.result.Location = new System.Drawing.Point(209, 321);
+            this.result.Margin = new System.Windows.Forms.Padding(4);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(132, 23);
             this.result.TabIndex = 5;
@@ -100,8 +100,8 @@
             // sumar
             // 
             this.sumar.BackColor = System.Drawing.Color.Lime;
-            this.sumar.Location = new System.Drawing.Point(223, 205);
-            this.sumar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sumar.Location = new System.Drawing.Point(223, 225);
+            this.sumar.Margin = new System.Windows.Forms.Padding(4);
             this.sumar.Name = "sumar";
             this.sumar.Size = new System.Drawing.Size(100, 30);
             this.sumar.TabIndex = 6;
@@ -112,8 +112,8 @@
             // limpiar
             // 
             this.limpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.limpiar.Location = new System.Drawing.Point(223, 352);
-            this.limpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.limpiar.Location = new System.Drawing.Point(223, 368);
+            this.limpiar.Margin = new System.Windows.Forms.Padding(4);
             this.limpiar.Name = "limpiar";
             this.limpiar.Size = new System.Drawing.Size(100, 30);
             this.limpiar.TabIndex = 7;
@@ -125,7 +125,7 @@
             // 
             this.pictureBox1.Image = global::AplicacioneslNucleo3.Properties.Resources.matematicas;
             this.pictureBox1.Location = new System.Drawing.Point(40, 81);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(107, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -136,7 +136,7 @@
             // 
             this.pictureBox2.Image = global::AplicacioneslNucleo3.Properties.Resources.prueba;
             this.pictureBox2.Location = new System.Drawing.Point(403, 245);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(109, 88);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,8 +147,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DodgerBlue;
-            this.ClientSize = new System.Drawing.Size(563, 416);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ClientSize = new System.Drawing.Size(563, 444);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.limpiar);
@@ -161,9 +161,10 @@
             this.Controls.Add(this.Dato1);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Aplicaciones 1- Nucleo 3";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
